@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>x_infte_esm_it_km_knowledge_reviewer</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-14 11:23:39</sys_created_on>
+        <sys_id>aa9b05dddb9853407b9b9ea3db961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_infte_esm_it_km_knowledge_reviewer</sys_name>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sys_ui_policy_action_aa9b05dddb9853407b9b9ea3db961941</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-14 11:23:39</sys_updated_on>
+        <table>kb_knowledge</table>
+        <ui_policy display_value="making field read only when state is published">e15b41dddb9853407b9b9ea3db961964</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"b24c341d-26a0-46fe-8ff7-e19e4cb0ceaa.table_name","label":"2.1➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge Table"},{"name":"b24c341d-26a0-46fe-8ff7-e19e4cb0ceaa.record","label":"2.1➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge Record"},{"name":"bb457554-c921-45c7-86fa-f765d807062a.approval_state","label":"1➛Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.x_infte_esm_it_km_knowledge_reviewer","label":"Trigger➛Knowledge Record➛Knowledge Reviewer","reference":"sys_user","reference_display":"Knowledge Reviewer","type":"reference","base_type":"reference","parent_table_name":"kb_knowledge","column_name":"x_infte_esm_it_km_knowledge_reviewer"},{"name":"Created_1.current.x_infte_esm_it_km_knowledge_reviewer.name","label":"Trigger➛Knowledge Record➛Knowledge Reviewer➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current","label":"Trigger➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Knowledge Management workflow</name>
+        <parent_flow/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 05:01:06</sys_created_on>
+        <sys_id>d9018ad5dbc85b007b9b9ea3db96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Management workflow</sys_name>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_d9018ad5dbc85b007b9b9ea3db96197c</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 05:01:06</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

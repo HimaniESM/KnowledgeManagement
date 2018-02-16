@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Knowledge flagged in past 30 days">f2cafe59db4c5b007b9b9ea3db96196a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 09:13:30</sys_created_on>
+        <sys_id>7acafe59db4c5b007b9b9ea3db96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f2cafe59db4c5b007b9b9ea3db96196a</sys_name>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sys_report_users_groups_7acafe59db4c5b007b9b9ea3db96196a</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 09:13:30</sys_updated_on>
+        <user_id display_value="sushil kumar">067c2df8db3b0300fbaa7d668c961986</user_id>
+    </sys_report_users_groups>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_infte_esm_it_km_knowledge_reviewer" label="Knowledge Reviewer" language="en" table="kb_knowledge">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_km_knowledge_reviewer</element>
+            <help/>
+            <hint/>
+            <label>Knowledge Reviewer</label>
+            <language>en</language>
+            <name>kb_knowledge</name>
+            <plural>Knowledge Reviewers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-01-31 11:06:42</sys_created_on>
+            <sys_id>a9810974db481b007b9b9ea3db9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Knowledge Reviewer</sys_name>
+            <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+            <sys_update_name>sys_documentation_kb_knowledge_x_infte_esm_it_km_knowledge_reviewer_en</sys_update_name>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-01-31 11:06:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

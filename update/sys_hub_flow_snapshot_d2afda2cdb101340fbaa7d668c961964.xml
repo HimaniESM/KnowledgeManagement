@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Knowledge reviewer should receive the approval request for Knowledge article</description>
+        <label_cache>[{"name":"666b8b63-2e89-4138-91b3-1dd48879d82a.approval_state","label":"1➛Approval State","type":"choice","base_type":"choice"},{"name":"da4395e2-e77a-4209-91b6-f73930928b9b.table_name","label":"1.1➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge Table"},{"name":"da4395e2-e77a-4209-91b6-f73930928b9b.record","label":"1.1➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge Record"},{"name":"2f0e4227-ab42-4f4b-8254-4554f09f5f06.table_name","label":"1.1➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge Table"},{"name":"2f0e4227-ab42-4f4b-8254-4554f09f5f06.record","label":"1.1➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge Record"},{"name":"348fd285-d543-4246-a4f7-1998d540f637.approval_state","label":"1➛Approval State","reference_display":"Approval State"},{"name":"Updated_1.current","label":"Trigger➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference"},{"name":"Updated_1.current.x_infte_esm_it_km_knowledge_reviewer","label":"Trigger➛Knowledge Record➛Knowledge Reviewer","reference":"sys_user","reference_display":"Knowledge Reviewer","type":"reference","base_type":"reference","parent_table_name":"kb_knowledge","column_name":"x_infte_esm_it_km_knowledge_reviewer"}]</label_cache>
+        <name>Knowledge Article approval flow</name>
+        <parent_flow display_value="Knowledge Article approval flow">f0d31a1adb08db00fbaa7d668c9619cb</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-12 09:35:13</sys_created_on>
+        <sys_id>d2afda2cdb101340fbaa7d668c961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Article approval flow</sys_name>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_d2afda2cdb101340fbaa7d668c961964</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-12 09:35:13</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

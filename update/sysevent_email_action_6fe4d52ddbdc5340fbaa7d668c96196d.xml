@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Knowledge" name="Knowledge">be9d02137f232200ee2e108c3ffa9143</category>
+        <collection>kb_knowledge</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>kb.article.retiringtogroup</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;${mail_script:kb_knowledge_script_1}&nbsp;</p>
+<p><strong>Dear User,</strong></p>
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;Greetings!, Knowledge article ${number} &nbsp;is getting retired.</strong></p>
+<p><span style="text-decoration: underline;"><strong>Knowledge Article Summary:</strong></span></p>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;Topic &nbsp; &nbsp; &nbsp; &nbsp; :${topic}<br />&nbsp; &nbsp; &nbsp; Status &nbsp; &nbsp; &nbsp; :${workflow_state}<br />&nbsp; &nbsp; &nbsp; Title &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:${short_description}&nbsp;<br />&nbsp; &nbsp; &nbsp; Valid To &nbsp; &nbsp; :${valid_to}<br />&nbsp; &nbsp; &nbsp; Category &nbsp; :${kb_category}</p>
+<p><strong>Click on ${URI_REF}&nbsp;for further details and/or to take actions.</strong></p>
+<p><strong>Regards,</strong><br /><strong>Knowledge Management Team</strong></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Knowledge article getting retired(Group)</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>author,author.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Knowledge article ${number} is getting retired in ${event.parm1} days.</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>Manjeet_Kumar</sys_created_by>
+        <sys_created_on>2018-02-15 06:43:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fe4d52ddbdc5340fbaa7d668c96196d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Knowledge article getting retired(Group)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sysevent_email_action_6fe4d52ddbdc5340fbaa7d668c96196d</sys_update_name>
+        <sys_updated_by>Manjeet_Kumar</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:10:47</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Knowledge_template">43dac519dbd45340fbaa7d668c96196a</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

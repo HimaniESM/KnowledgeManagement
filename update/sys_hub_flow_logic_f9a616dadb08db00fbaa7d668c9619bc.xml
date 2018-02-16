@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9b9616dadb08db00fbaa7d668c961931</block>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Knowledge Article approval flow">f1a616dadb08db00fbaa7d668c9619a3</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-05 09:09:32</sys_created_on>
+        <sys_id>f9a616dadb08db00fbaa7d668c9619bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_f9a616dadb08db00fbaa7d668c9619bc</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-05 09:09:32</sys_updated_on>
+        <ui_id>e07df16e-cef6-4019-8395-07026b73fa03</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f9a616dadb08db00fbaa7d668c9619bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f9a616dadb08db00fbaa7d668c9619bc</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-05 09:09:32</sys_created_on>
+        <sys_id>79a616dadb08db00fbaa7d668c9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-05 09:09:32</sys_updated_on>
+        <value>{{348fd285-d543-4246-a4f7-1998d540f637.approval_state}}=approved</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

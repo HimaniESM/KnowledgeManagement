@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Knowledge Management workflow">d9018ad5dbc85b007b9b9ea3db96197c</flow>
+        <order>2.1</order>
+        <parent_ui_id>c862ea7a-85bf-4d1c-9cbd-98e28d265856</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 05:01:06</sys_created_on>
+        <sys_id>a1018ad5dbc85b007b9b9ea3db96198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a1018ad5dbc85b007b9b9ea3db96198b</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 05:01:06</sys_updated_on>
+        <ui_id>b24c341d-26a0-46fe-8ff7-e19e4cb0ceaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a1018ad5dbc85b007b9b9ea3db96198b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a1018ad5dbc85b007b9b9ea3db96198b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 05:01:06</sys_created_on>
+        <sys_id>65018ad5dbc85b007b9b9ea3db96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 05:01:06</sys_updated_on>
+        <value>kb_knowledge</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a1018ad5dbc85b007b9b9ea3db96198b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 05:01:06</sys_created_on>
+        <sys_id>a1018ad5dbc85b007b9b9ea3db96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 05:01:06</sys_updated_on>
+        <value>workflow_state=published</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a1018ad5dbc85b007b9b9ea3db96198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a1018ad5dbc85b007b9b9ea3db96198b</id>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 05:01:06</sys_created_on>
+        <sys_id>6d018ad5dbc85b007b9b9ea3db96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 05:01:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a1018ad5dbc85b007b9b9ea3db96198b</id>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 05:01:06</sys_created_on>
+        <sys_id>a9018ad5dbc85b007b9b9ea3db96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 05:01:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a1018ad5dbc85b007b9b9ea3db96198b</id>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-02 05:01:06</sys_created_on>
+        <sys_id>21018ad5dbc85b007b9b9ea3db96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-02 05:01:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

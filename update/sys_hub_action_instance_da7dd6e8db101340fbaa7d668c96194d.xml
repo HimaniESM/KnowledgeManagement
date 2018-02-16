@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Knowledge Article approval flow">c27dd6e8db101340fbaa7d668c961937</flow>
+        <order>3.1</order>
+        <parent_ui_id>5a5e258a-95eb-4166-a667-12fb7f181665</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-12 09:25:39</sys_created_on>
+        <sys_id>da7dd6e8db101340fbaa7d668c96194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="esm_it_km" source="x_infte_esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_km">52600cf0dbc41b007b9b9ea3db9619cf</sys_scope>
+        <sys_update_name>sys_hub_action_instance_da7dd6e8db101340fbaa7d668c96194d</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-12 09:25:39</sys_updated_on>
+        <ui_id>da4395e2-e77a-4209-91b6-f73930928b9b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da7dd6e8db101340fbaa7d668c96194d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>da7dd6e8db101340fbaa7d668c96194d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-12 09:25:39</sys_created_on>
+        <sys_id>9a7dd6e8db101340fbaa7d668c961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-12 09:25:39</sys_updated_on>
+        <value>kb_knowledge</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>da7dd6e8db101340fbaa7d668c96194d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-12 09:25:39</sys_created_on>
+        <sys_id>d67dd6e8db101340fbaa7d668c961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-12 09:25:39</sys_updated_on>
+        <value>workflow_state=draft</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da7dd6e8db101340fbaa7d668c96194d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>da7dd6e8db101340fbaa7d668c96194d</id>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-12 09:25:39</sys_created_on>
+        <sys_id>927dd6e8db101340fbaa7d668c961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-12 09:25:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>da7dd6e8db101340fbaa7d668c96194d</id>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-12 09:25:39</sys_created_on>
+        <sys_id>de7dd6e8db101340fbaa7d668c96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-12 09:25:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>da7dd6e8db101340fbaa7d668c96194d</id>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-12 09:25:39</sys_created_on>
+        <sys_id>567dd6e8db101340fbaa7d668c961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-02-12 09:25:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
